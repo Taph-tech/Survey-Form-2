@@ -1,0 +1,20 @@
+#main-div{
+  font-size: 16px;
+  width: 600px;
+  margin: auto;
+  border: 3px solid grey;
+background-color:#580599;
+
+}
+#title{
+  text-align: center; 
+}
+#description{
+  text-align: center;
+}
+
+#submit{
+  background-color:#4CAF50;
+padding: 10px 135px;
+block:inline;
+}

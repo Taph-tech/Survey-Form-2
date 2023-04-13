@@ -1,0 +1,86 @@
+<main>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <div id="main-div">
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  
+  <form id="survey-form">
+    <div> 
+      <label id="name-label" for="name"> Name <br>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required > </label></div>
+  <br>
+   <div> 
+   <label id="email-label" for="email"> Email  
+   <br><input id="email" type="email"  placeholder="Enter your email" required> 
+     </label>
+   <div/>
+     <br>
+     <div>
+       <label id="number-label" for="number"> Age (Optional)
+         <br><input id="number" min="10" max="99" type="number" placeholder="Age">
+       </label>
+       </div>
+       <br>
+     <div> <p>Which option best describes your current role?</p>
+         
+         <select  id="dropdown">
+          <option disabled selected value>
+           Select current role</option>
+           <option value="student">
+           Student</option>
+            <option value="fulltime-job">
+           Full Time Job</option>
+            <option value="full-timelearner">
+           Full Time Learner</option>
+            <option value="prefernottosay">
+           Prefer Not To Say</option>
+            <option value="other">
+           Other</option>
+         </select>
+    </div>
+  
+     <div>
+       <p>Would you recommend freeCodeCamp to a friend?</p>
+       <Label for="definetely"> Definitely <br><input class="user-recommend" type="radio" value="deinitely" name="recomend"  ></Label> <br>
+       <Label for="maybe"> Maybe <br><input class="user-recommend" type="radio" value="maybe" name="recomend"  ></Label><br>
+        <Label for="notsure"> Not sure <br><input class="user-recommend" type="radio" value="notsure" name="recomend"  ></Label>
+     </div>
+     <div>
+     <p>What is your favorite feature of freeCodeCamp?</p>
+       <select  id="dropdown">
+          <option disabled selected value>
+           Select an option</option>
+           <option value="challenges">
+           Challenges</option>
+            <option value="projects">
+           Projects</option>
+            <option value="community">
+           Community</option>
+            <option value="opensource">
+           Open Source</option>
+         </select> 
+       <div>
+       <p>What would you like to see improved? (Check all that apply)</p>
+         <Label for="front-endprojects"> <input class="improvement" type="checkbox" value="front-endprojects" name="definitely"  >Front-end Projects</Label> <br>
+       <Label for="back-endproject"><input class="improvement" type="checkbox" value="maybe" name="back-endprojects"> Back-end Projects</Label><br>
+        <Label for="datavisualize"><input class="improvement" type="checkbox" value="datavisual" name="datavisualize" >Data Visualization</Label> <br>
+ <Label for="challenges"><input class="improvement" type="checkbox" value="challenges" name="challenges"> Challenges</Label><br>
+        <Label for="opensourceCom"><input class="improvement" type="checkbox" value="opensourceco" name="opensourceCom" >Open Source Community</Label><br>
+ <Label for="gitter-help"><input class="improvement" type="checkbox" value="gitter-help" name="gitter-help"> Gitter help rooms</Label><br>
+        <Label for="videos"><input class="improvement" type="checkbox" value="videos" name="videos" >Videos</Label> <br>
+ <Label for="city-meetup"><input class="improvement" type="checkbox" value="city-meetup" name="city-meetup"> City Meetups</Label><br>
+        <Label for="wiki"><input class="improvement" type="checkbox" value="wiki" name="wiki" >Wiki</Label> <br>
+ <Label for="forum"><input class="improvement" type="checkbox" value="forum" name="forum"> Forum</Label><br>
+        <Label for="additional-course"><input class="improvement" type="checkbox" value="additional-course" name="additional-course" >Additional Courses</Label>
+<div>
+  <div>
+    <p>Any comments or suggestions?</p>
+    <textarea  value="text-area" rows="5" cols="40" class="txtarea"></textarea>
+    <br>
+    <br>
+    <input type="submit" id="submit"name="submitInfo" value="Submit">
+  </div>
+     <div>
+    <form/>
+    </div>
+</main>
