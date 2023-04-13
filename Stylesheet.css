@@ -18,3 +18,7 @@ background-color:#580599;
 padding: 10px 135px;
 block:inline;
 }
+.txtarea{
+  resize: vertical;
+}
+
